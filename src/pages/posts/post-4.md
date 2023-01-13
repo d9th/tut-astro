@@ -11,7 +11,6 @@ tags: ["astro", "blogging", "learning in public", "tutorial"]
 ---
 
 日本語テスト
-
 いろはにほへと
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
