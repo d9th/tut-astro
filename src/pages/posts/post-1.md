@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/markdownPostLayout.astro
-title: "My First Blog Post"
-pubDate: 2022-07-01
-description: "This is the first post of my new Astro blog."
+title: "Astro 始めました"
+pubDate: 2023-01-23
+description: "descriptionは必要なのか？"
 author: "Astro Learner"
 image:
   url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"

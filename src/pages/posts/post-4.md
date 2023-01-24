@@ -1,25 +1,45 @@
 ---
 layout: ../../layouts/markdownPostLayout.astro
-title: "My 4th Blog Post"
-pubDate: 2023-01-15
-description: "This is the first post of my new Astro blog."
+title: "tailwind typography と追加しました"
+pubDate: 2023-01-23
+description: "This is the post with tailwind typography."
 author: "Astro Learner"
 tags: ["astro", "blogging", "learning in public", "tutorial"]
 ---
 
-日本語テスト
-いろはにほへと
+# head1
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+## head2
 
-## What I've accomplished
+### head3
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+#### head4
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+##### head5
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+###### head6
 
-## What's next
+## h2 日本語テスト
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+tailwindcss typography を追加しました
+
+### h3 いろはにほへと
+
+あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+またそのなかでいっしょになったたくさんのひとたち、ファゼーロとロザーロ、羊飼のミーロや、顔の赤いこどもたち、地主のテーモ、山猫博士のボーガント・デストゥパーゴなど、いまこの暗い巨きな石の建物のなかで考えていると、みんなむかし風のなつかしい青い幻燈のように思われます。
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+#### h4 カタカナ片仮名
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+##### h5
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+```
+npm run dev
+npm run preview
+
+```
