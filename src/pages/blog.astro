@@ -1,7 +1,11 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-const allPosts = await Astro.glob("../pages/posts/*.md");
+
+const allPosts = await getCollection("posts");
 const pageTitle = "Astro blog";
+// DEBUG
+console.log(allPosts[0]);
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -10,11 +14,17 @@ const pageTitle = "Astro blog";
     {
       allPosts.reverse().map(post => (
         <li class="mb-2">
-          <a href={post.url} class="text-gray-700 font-bold underline">
-            {post.frontmatter.title}
+          <pre>id: {post.id}</pre>
+          <pre>slug: {post.slug}</pre>
+          <pre>collections: {post.collection}</pre>
+          <pre>title: {post.data.title}</pre>
+
+          <a
+            href={`/posts/${post.slug}`}
+            class="text-gray-700 font-bold underline"
+          >
+            {post.slug}
           </a>
-          <p>{post.frontmatter.description}</p>
-          <p>{post.frontmatter.pubDate}</p>
         </li>
       ))
     }
